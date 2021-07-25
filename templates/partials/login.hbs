@@ -1,0 +1,20 @@
+<div class="container my-5">
+    <div class="row">
+        <div class="col-10 col-md-4 mx-auto shadow p-4 rounded-3">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <i class="fa-5x text-center mb-4 far fa-user"></i>
+                <h6 class="text-center mb-3"><span class="text-primary h5 fw-bold">L</span>ogin <span class="text-danger h5 fw-bold">F</span>orm</h6>
+            </div>
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Username Or Email</label>
+                    <input type="email" class="form-control my-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username Or Email" required name="email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control my-2" id="exampleInputPassword1" placeholder="Password" required name="password">
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Log In</button>
+             </form>
+        </div>
+    </div>
